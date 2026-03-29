@@ -1,0 +1,28 @@
+:root {
+  background-color: #ffffff;
+} 
+
+nav ul li {
+ list-style-type: none;
+ overflow: hidden;
+
+}
+
+nav a{
+  text-decoration: none
+}
+
+.primary-navigation ul li{
+  display: block;
+  margin: 0px;
+  padding: 0.5rem;
+  float: right;
+}
+
+.secondary-navigation{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
