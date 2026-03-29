@@ -1,27 +1,59 @@
-:root {
-  background-color: #ffffff;
-} 
-
-nav ul li {
- list-style-type: none;
- overflow: hidden;
-
-}
-
-nav a{
-  text-decoration: none
-}
-
-.primary-navigation ul li{
-  display: block;
+*{
+  padding: 0px;
   margin: 0px;
-  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.primary-navigation{
+  display: flex;
+  justify-content: space-between;
+}
+
+ul{
+  list-style-type: none;
+  margin: 10px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+li{
   float: right;
+}
+
+ul li a{
+  display: block;
+  text-align: center;
+  padding: 2px 18px;
+  text-decoration: none;
+}
+
+.hero-logo{
+  display: flex;
+  align-self: center;
+}
+
+.hero-logo{
+  width: 6rem;
 }
 
 .secondary-navigation{
   display: flex;
-  justify-content: space-between;
+  align-content: center;
+}
+
+.secondary-navigation {
+  float: right;
+  margin: 0px 18px;
+}
+
+#search-dog{
+  height: 8vh;
+  width: 15vw;
+  padding: 0.5rem
+}
+
+.hero-header{
+  background-color: black
 }
 
 
