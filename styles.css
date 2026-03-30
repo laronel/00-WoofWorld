@@ -4,27 +4,27 @@
   box-sizing: border-box;
 }
 
+/* add flexbox and align items inside the header */
+
 .woofworld-logo{
-  width: 70px;
-  margin: 10px
+  width: 100px;
+  margin: 0px;
 }
 
 .hero-top{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 15px
 }
+
 
 .primary-navigation ul{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 15px;
   list-style: none;
-}
-
-.primary-navigation{
-  margin: 10px 0px;
-  padding-right: 20px
 }
 
 .primary-navigation a{
@@ -33,9 +33,9 @@
 
 .secondary-navigation{
   display: flex;
-  align-items: start;
-  float: right;
-  margin: 0px 20px
+  justify-content: flex-end;
+  align-items: baseline;
+  padding: 15px;
 }
 
 .secondary-navigation ul{
@@ -47,4 +47,52 @@
 
 .secondary-navigation a {
   text-decoration: none;
+}
+
+
+/* Style navigation bar */
+
+.hero-top{
+  background-color: #f6f6f6;
+  font-family: inter, sans-serif;
+  font-size: 14px;
+}
+
+.hero-top nav ul li:last-child{
+  text-align: center;
+  background-color: #696ff9;
+  padding: 0.5rem;
+  width: 7vw;
+  border-radius: 3px;
+}
+
+.sign-color{
+  color: #f6f6f6;
+  font-weight: bold;
+  letter-spacing: 0.020rem;
+}
+
+.primary-navigation nav ul li a:not(last-child){
+  color: #696ff9;
+}
+
+.secondary-navigation{
+  background-color: #696ff9;
+  font-family: inter, sans-serif;
+  font-size: 15px;
+}
+
+.secondary-navigation a{
+  color: #f6f6f6;
+  font-weight: bold;
+}
+
+input[type="search"] {
+  padding: 10px;
+  width: 17vw;
+  height: 5vh;
+  background-color: #f6f6f6;
+  border: none;
+  border-radius: 3px;
+  outline: 1px solid #f6f6f6;
 }
