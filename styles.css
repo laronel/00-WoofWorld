@@ -4,80 +4,109 @@
   box-sizing: border-box;
 }
 
-/* add flexbox and align items inside the header */
+/* add flexbox and box model to align items inside the header */
 
 .woofworld-logo{
-  width: 100px;
-  margin: 0px;
+  width: 150px;
 }
 
 .hero-top{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px
+  padding: 15px;
 }
 
+.primary-navigation{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
 
 .primary-navigation ul{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 15px;
+  gap: 20px;
   list-style: none;
-}
-
-.primary-navigation a{
-  text-decoration: none;
+  margin-left: 0rem;
+  margin-right: 42rem;
 }
 
 .secondary-navigation{
   display: flex;
-  justify-content: flex-end;
-  align-items: baseline;
-  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px 15px 15px; 
 }
 
 .secondary-navigation ul{
   display: flex;
-  gap: 15px;
-  padding-right: 15px;
+  justify-content: start;
   list-style: none;
+  gap: 20px; 
+}
+
+/* Add color and style to primary navigation Bar*/
+
+.hero-top{
+  border-bottom: 1px solid #ffff;
+  background-color: #702083;
+}
+
+ .primary-navigation ul a{ 
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: inter, sans-serif;
+  font-size: 15px;
+  transition: 0.2s;
+}
+ 
+ .sign-color{
+  color: #FFFFFF;
+  font-weight: bold;
+  background-color: transparent;
+  padding: 0.75rem;
+  width: 7vw;
+  border-radius: 3px;
+  border: 1px solid #ffffff9a;
+  cursor: pointer;
+  transition: 0.3s, ease;
+} 
+
+.primary-navigation ul a:hover{
+  color: #FE8301;
+  border-bottom: 2px solid #FE8301;
+  font-weight: bold;
+}
+
+.primary-navigation ul a:active{
+  color: #fff;
+}
+
+
+.sign-color:hover{
+  background-color: #FE8301;
+}
+
+.sign-color:active{
+  background-color: #B65F02;
+}
+
+
+/* Style Secondary Navigation Bar */
+
+/* #search-dog{
+  margin-left: 570px;
+  margin-right: 0px;
 }
 
 .secondary-navigation a {
   text-decoration: none;
 }
 
-
-/* Style navigation bar */
-
-.hero-top{
-  background-color: #f6f6f6;
-  font-family: inter, sans-serif;
-  font-size: 14px;
-}
-
-.hero-top nav ul li:last-child{
-  text-align: center;
-  background-color: #696ff9;
-  padding: 0.5rem;
-  width: 7vw;
-  border-radius: 3px;
-}
-
-.sign-color{
-  color: #f6f6f6;
-  font-weight: bold;
-  letter-spacing: 0.020rem;
-}
-
-.primary-navigation nav ul li a:not(last-child){
-  color: #696ff9;
-}
-
 .secondary-navigation{
-  background-color: #696ff9;
+  background-color: #702083;
   font-family: inter, sans-serif;
   font-size: 15px;
 }
@@ -94,5 +123,26 @@ input[type="search"] {
   background-color: #f6f6f6;
   border: none;
   border-radius: 3px;
-  outline: 1px solid #f6f6f6;
 }
+
+/* First Section - Hero
+
+.about-dogs{
+  text-align: center;
+  padding: 20px;
+  background-color: #f6f6f6;
+}
+
+ .hero-title{
+  padding-bottom: 15px;
+  font-family: oswald;
+  color: #4C3B4D;
+  font-size: 3em;
+}
+
+.hero-subtitle{
+  font-size: 3em;
+  padding-bottom: 15px;
+  color: #89B6A5
+} */
+
