@@ -293,13 +293,56 @@ input:focus[type="search"]{
   padding: 0px 15px 10px 15px;
 }
 
-.banner img {
-  width: 100%;
+.banner{
   position: relative; 
-  overflow: hidden; 
 }
 
+.banner img {
+  width: 100%;
+}
 
+#banner-text{
+  position: absolute;
+  bottom: 60%;
+  left: 50%;
+}
+
+#banner-sub-text{
+  position: absolute;
+  bottom: 40%;
+  left: 50%;
+}
+
+.banner a{
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #eca0ad;
+  padding: 15px 20px 15px 20px;
+  color: white;
+  text-decoration: none;
+  font-family: inter;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.banner p{
+  transform: translate(-50%, -50%);
+  font-size: 1.50em;
+  color: #f6f6f6;
+  font-weight: 600px;
+  font-family: inter;
+}
+
+#sport-events{
+  padding: 15px 0px 15px 0px;
+  text-align: center;
+  font-weight: 600px;
+  color: #702083;
+  font-size: 1.60rem;
+  font-family: "inter", sans-serif;
+}
 
 .event-grid{
   display: grid;
@@ -307,3 +350,4 @@ input:focus[type="search"]{
   gap: 10px;
   padding: 15px;
 }
+
