@@ -24,7 +24,7 @@
           <img class="woofworld-logo"  src="assets/images/logotype/tipography-logo.png" alt="WoofWorld logotype"/>
         </a>
         <nav class="primary-navigation" id="primary-menu" aria-label="primary navigation">
-          <ul>
+          <ul class="nav-list">
             <li><a href="dog-info.html">Dog Info</a></li>
             <li><a href="registration.html">Registration</a></li>
             <li><a href="sport-&-envents.html">Sport & Events</a></li>
@@ -44,24 +44,24 @@
       <section class="secondary-section">
         <article class="available-puppies">
           <div class="available-number">
-            <p id="range-number-puppies">200 + </p> 
-            <p id="available">Puppies Available</p>
+            <p class="stat-number">200 + </p> 
+            <p class="stat-label">Puppies Available</p>
           </div>
            <div class="matches-made"> 
-            <p id="range-number-matches">130 +</p>
-            <p id="matches">Matches Made</p>
+            <p class="stat-number">130 +</p>
+            <p class="stat-label">Matches Made</p>
           </div>
            <div class="animal-saved">
-            <p id="range-number-animal-save">500 +</p>
-            <p id="animal-save">Animal Saved</p>
+            <p class="stat-number">500 +</p>
+            <p class="stat-label">Animal Saved</p>
           </div>
         </article>
       </section>
       <section class="section-service">
-        <p id="dog-and-humans">Where Dogs (and Their Humans) Find Their Perfect Match</p>
+        <p id="dog-and-humans">Where Dogs Find Their Perfect Match</p>
         <h2 id="woofWorld-works">How WoofWorld Works</h2>
         <article class="function-service">
-          <div class="costumization-profile">
+          <div class="customization-profile">
             <p id="create-profile">Create Your Dog’s Profile</p> 
             <p id="description-profile">Sign up and create a profile for your dog by sharing their breed, personality, interests, and location. This helps other dog lovers understand what makes your pup unique.</p>
           </div>
@@ -78,69 +78,87 @@
             <p id="woofWorld-community">WoofWorld is more than matching dogs—it’s about creating friendships, building a community of dog lovers, and giving dogs unforgettable social experiences.</p>
           </div>
         </article>
-        <a  class="community-web" href="community.html">Join in ours community</a>
-      </section>
-      <section class="btn-banner">
-        <img  class="hero-image" src="assets/images/Design-PS/dog-brashes.png" alt="A man training a dogs">
-        <h2 class="hero-text">You deserve more than you can imagine, Declare and register</h2>
-        <p class="hero-description">
-          Dogs have lived alongside people, evolving from wild companions into loyal friends, protectors, and family members.
-        </p>
-        <p> 
-          Humans provide dogs with care, shelter, and love, while dogs offer companionship, emotional support, and unconditional loyalty.
-        </p>
-        <p>This relationship is built on trust, affection, and mutual understanding. </p>
-        <div class="registration">
-          <a href="registration">Make it Happen Today</a>
+        <div class="community-subscription">
+          <a  class="community-web" href="community.html">Join in Ours Community</a>
         </div>
       </section>
+      <section class="banner-container">
+          <img  class="hero-image" src="assets/images/Design-PS/dog-brashes.png" alt="A man training a dogs">
+          <div class="content-description">
+            <h2 class="hero-text">You deserve more than you can imagine, Declare and register</h2>
+            <p class="hero-description">Dogs have lived alongside people, evolving from wild companions into loyal friends, protectors, and family members.</p>
+            <p> Humans provide dogs with care, shelter, and love, while dogs offer companionship, emotional support, and unconditional loyalty.</p>
+            <p>This relationship is built on trust, affection, and mutual understanding. </p>
+            <div class="registration">
+              <a href="registration">Make it Happen Today</a>
+            </div>
+          </div>
+      </section>
       <!---------------------------------------- Top Stories ------------------------------------------->
-      <section class="top-stories" aria-labelledby="top-stories" >
-        <h3 id="top-stories">Top Stories</h3>
+      <section class="top-stories-container" aria-labelledby="top-stories" >
+        <h3 class="title-stories">Top Stories</h3>
+        <p class="subtitle-stories">Explore the best moments, new matches, and real connections from the  <abbr title ="WoofWorld Community">WWC</abbr> .</p>
         <div class="stories-grid">
           <article class="healthy-card">
             <img src="assets/Images/dogs/doctor-pet-care.jpg" alt="A doctor with a hand on heads dog care about healthy">
-            <h4>Health</h4>
-            <p>Keeping Your Dog Fit: Simple Daily Exercise Tips</p>
+            <div class="content-stories">
+              <h4>Health</h4>
+              <p>Keeping Your Dog Fit: Simple Daily Exercise Tips</p>
+            </div>
           </article>
           <article class="adoption-card">
             <img src="assets/Images/dogs/adoption.jpg" alt="Adoption - White Brown dog with face pink's mask look happy">
-            <h4>Adoption</h4>
-            <P>From Shelter to Sofa: Heartwarming Rescue Dog Stories</P>
+            <div class="content-stories">
+              <h4>Adoption</h4>
+              <P>From Shelter to Sofa: Heartwarming Rescue Dog Stories</P>
+            </div>
           </article>
           <article class="nutrition-card">
             <img src="assets/Images/dogs/dogs-nutrition.jpg" alt="White Pitbull eating from a bowl, demonstrating proper dog nutrition and feeding practices">
-            <h4>Nutrition</h4>
-            <p>What Should You Feed Your Dog? A Beginner's Guide</p>
+            <div class="content-stories">
+              <h4>Nutrition</h4>
+              <p>What Should You Feed Your Dog? A Beginner's Guide</p>
+            </div>
           </article>
           <article class="behavior-card">
             <img src="assets/Images/dogs/dog-behavior.jpg" alt="White dog with playful body language, tail raised and moving, engaging happily with a person in an outdoor setting, displaying friendly and joyful canine communication signals">
-            <h4>Behavior</h4>
+            <div class="content-stories">
+              <h4>Behavior</h4>
             <p>Why Dogs Wag Their Tails: Understanding Canine Signals</p>
+            </div>
           </article>
           <article class="travel-card">
             <img src="assets/Images/dogs/dogs-travel.jpg" alt="Black and white dog sitting in a car during travel, looking out the window with a calm and content expression, ready for a road trip adventure">
-            <h4>Travel</h4>
-            <p>Best Dog-Friendly Destinations for Weekend Getaways</p>
+            <div class="content-stories">
+              <h4>Travel</h4>
+              <p>Best Dog-Friendly Destinations for Weekend Getaways</p>
+            </div>
           </article>
           <article class="training-card">
             <img src="assets/Images/dogs/dogs-training.jpg" alt="German Shepherd dog catching a pink flying disc in its mouth during an outdoor training session on grass, demonstrating obedience and athletic skill">
-            <h4>Training</h4>
-            <p>Teaching Basic Commands: Sit, Stay, and Come</p>
+            <div class="content-stories">
+              <h4>Training</h4>
+              <p>Teaching Basic Commands: Sit, Stay, and Come</p>
+            </div>
           </article>
           <article class="lifestyle-card">
             <img src="assets/Images/dogs/dogs-lifestyle.jpg" alt="Happy family dog relaxing indoors on a comfortable couch, surrounded by family members in a warm, cozy home environment, conveying contentment and domestic companionship">
-            <h4>Lifestyle</h4>
-            <p>A Day in the Life of a Happy Family Dog</p>
+            <div class="content-stories">
+              <h4>Lifestyle</h4>
+              <p>A Day in the Life of a Happy Family Dog</p>
+            </div>
           </article>
           <article class="feature-card">
             <img src="assets/Images/dogs/dogs-feature.jpg" alt="A small therapy dog interacting with a person in a home setting, providing emotional support and companionship, demonstrating the meaningful impact of therapy dogs despite their small size">
-            <h4>Feature</h4>
-            <p>Meet the Smallest Therapy Dog Making a Big Difference</p>
+            <div class="content-stories">
+              <h4>Feature</h4>
+              <p>Meet the Smallest Therapy Dog Making a Big Difference</p>
+            </div>
           </article>
         </div>
       </section>
-            <section class="view-gallery">
+      <!--  -->
+      <section class="view-gallery">
         <article>
           <a href="html.gallery">
             <img class="primary-gallery-img" src="assets/Images/dogs/barnabas-davoti.jpg" alt="Two dogs have a funny moment, push each other an object with their">
