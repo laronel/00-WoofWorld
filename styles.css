@@ -372,22 +372,32 @@
   transform: translate(-50%, -50%);
   font-size: 1.50em;
   color:var(--accent);
-  font-weight: 600px;
+  font-weight: medium;
   font-family: inter;
 }
 
 /*------------------------------------------sport & events-------------------------- */
 
 .events{
-  padding: 80px
+  padding: 80px;
+  background-color:var(--light);
+}
+
+#sport-events,
+#sport-events-subtitle{
+ text-align: center;
 }
 
 #sport-events{
-  padding: 15px 0px 40px 0px;
-  text-align: center;
+  padding: 0px 0px 20px 0px;
   font-weight: 600px;
   color:var(--primary);
   font-size: 1.60rem;
+}
+
+#sport-events-subtitle{
+  padding-bottom: 20px;
+  
 }
 
 .events img{
