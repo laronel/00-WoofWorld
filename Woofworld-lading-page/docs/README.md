@@ -1,12 +1,13 @@
-🐶 WoofWorld — Dog Training Platform
-🎯 Goal
+**WoofWorld — Dog Training Platform**
+
+## Goal
 
 Rebuild and design a modern dog training website from scratch, focusing on clean structure, usability, and strong HTML semantics.
 
 ## Tech Stack
 
-**HTML5**
-**CSS3**
+*HTML5*
+*CSS3*
 
 Status
 
