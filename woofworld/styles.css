@@ -328,6 +328,7 @@
   margin: auto;
   max-width: 300px;
   height: 420px;
+  font-family: "inter";
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s ease; 
 }
@@ -340,13 +341,11 @@
   color:var(--accent);
   font-weight: 600px;
   font-size: 1.20rem;
-  font-family: "inter"
 }
 
 .stories-grid p{
   color:var(--primary);
   font-weight: 600px;
-  font-family: "inter"
 }
 
 /* repeat(auto-fit, minmax(250px, 1fr)); (media query - mobile and monitor) */
@@ -455,6 +454,7 @@
   transition: 0.3s ease;
   max-width: 1200px;
   min-width: 200px;
+  font-family: "inter";
   transition: 0.3s ease;
 }
 
@@ -509,8 +509,8 @@
 .important-info a{
   text-decoration: none;
   color:var(--light);
-  font-weight: bold;
   transition: 0.3s;
+  font-family: "inter";
 }
 
 .important-info a:hover{
