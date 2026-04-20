@@ -13,8 +13,6 @@
 --footer-setting: #181113;
 }
 
-/*--------------------------------add flexbox and box model to align items inside the header----------------------------------*/
-
 .woofworld-logo{
   width: 150px;
   margin-left: 20px;
@@ -27,7 +25,7 @@
   background-color:var(--primary);
   align-items: center;
 }
-
+ 
 .nav-list{
   gap: 20px;
   list-style: none;
@@ -76,4 +74,51 @@
 
 .nav-list a:active{
   color:var(--light);
+}
+
+/*--------------------------- footer----------------------*/
+.logo-footer{
+  background-color:var(--footer-setting);
+  padding: 40px 0px 0px 40px;
+  width: 100%;
+}
+
+.important-info{
+  display: flex;
+  justify-content: space-between;
+  background-color:var(--footer-setting);
+  padding: 40px 40px ;
+  margin: 0px;
+}
+
+
+.important-info a{
+  text-decoration: none;
+  color:var(--light);
+  transition: 0.3s;
+  font-family: "inter";
+}
+
+.important-info a:hover{
+  border-bottom: 2px solid var(--light)
+}
+
+.important-info a:active{
+  border-bottom: 2px solid var(--opacity-accent);
+  color:var(--opacity-accent) 
+}
+
+.important-info a:visited{
+  border-bottom: 2px solid var(--accent);
+  color:var(--accent);
+}
+
+.right-reserve {
+  background-color:var(--accent);
+  padding: 20px;
+}
+
+.right-reserve a{
+  color:var(--light);
+  text-align: center;
 }

@@ -27,7 +27,7 @@
   background-color:var(--primary);
   align-items: center;
 }
-
+ 
 .nav-list{
   gap: 20px;
   list-style: none;
