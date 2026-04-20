@@ -1,0 +1,124 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+:root{
+--primary:#702083;
+--accent:#FE8301;
+--light:#F6F6F6;
+--hover-button: #FE8301a1;
+--opacity-accent: #ffd1a1;
+--footer-setting: #181113;
+}
+
+.woofworld-logo{
+  width: 150px;
+  margin-left: 20px;
+}
+
+.hero-top{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color:var(--primary);
+  align-items: center;
+}
+ 
+.nav-list{
+  gap: 20px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.btn-sign{
+  margin-right: 20px;
+  height: 2.50rem;
+  width: 5rem;
+  border-radius: 100px;
+  background-color:var(--light);
+  color:var(--accent);
+  font-weight: 600;
+  font-size: 15px;
+  border: none; 
+  cursor: pointer;
+  font-family: "inter", sans-serif;
+  transition: 0.3s ease;
+}
+
+.btn-sign:hover{
+  background-color:var(--accent);
+  color:var(--light);
+}
+
+
+/*-------------------------Add color and style to primary navigation Bar----------------------*/
+
+ .nav-list a{ 
+  color:var(--light);
+  text-decoration: none;
+  font-family: "inter", sans-serif;
+  font-size: 15px;
+  transition: 0.2s;
+  font-weight: 600;
+}
+
+.nav-list a:hover{
+  color:var(--light);
+  border-bottom: 1px solid var(--accent);
+  padding: 3px 10px 3px 10px;
+  border-radius: 50px;
+}
+
+.nav-list a:active{
+  color:var(--light);
+}
+
+/*--------------------------- footer----------------------*/
+.logo-footer{
+  background-color:var(--footer-setting);
+  padding: 40px 0px 0px 40px;
+  width: 100%;
+}
+
+.important-info{
+  display: flex;
+  justify-content: space-between;
+  background-color:var(--footer-setting);
+  padding: 40px 40px ;
+  margin: 0px;
+}
+
+
+.important-info a{
+  text-decoration: none;
+  color:var(--light);
+  transition: 0.3s;
+  font-family: "inter";
+}
+
+.important-info a:hover{
+  border-bottom: 2px solid var(--light)
+}
+
+.important-info a:active{
+  border-bottom: 2px solid var(--opacity-accent);
+  color:var(--opacity-accent) 
+}
+
+.important-info a:visited{
+  border-bottom: 2px solid var(--accent);
+  color:var(--accent);
+}
+
+.right-reserve {
+  background-color:var(--accent);
+  padding: 20px;
+}
+
+.right-reserve a{
+  color:var(--light);
+  text-align: center;
+}
