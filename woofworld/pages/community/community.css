@@ -1,0 +1,82 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+:root{
+--primary:#702083;
+--accent:#FE8301;
+--light:#F6F6F6;
+--hover-button: #FE8301a1;
+--opacity-accent: #ffd1a1;
+--footer-setting: #181113;
+}
+
+.footer-container{
+  display: flex-start;
+  flex-direction: row;
+  align-items: end;
+}
+
+.woofworld-logo{
+  width: 150px;
+  margin-left: 20px;
+}
+
+.hero-top{
+  padding: 20px;
+  background-color:var(--light);
+  align-items: start;
+}
+
+
+
+.logo-footer{
+  background-color:var(--footer-setting);
+  padding: 40px 0px 0px 40px;
+  width: 100%;
+}
+
+.important-info{
+  display: flex;
+  justify-content: space-between;
+  background-color:var(--footer-setting);
+  padding: 40px 40px ;
+  margin: 0px;
+}
+
+
+.important-info a{
+  text-decoration: none;
+  color:var(--light);
+  transition: 0.3s;
+  font-family: "inter";
+}
+
+.important-info a:hover{
+  border-bottom: 2px solid var(--light)
+}
+
+.important-info a:active{
+  border-bottom: 2px solid var(--opacity-accent);
+  color:var(--opacity-accent) 
+}
+
+.important-info a:visited{
+  border-bottom: 2px solid var(--accent);
+  color:var(--accent);
+}
+
+.right-reserve {
+  background-color:var(--accent);
+  padding: 20px;
+}
+
+.right-reserve a{
+  color:var(--light);
+}
+
+.important-links{
+  background-color:var(--footer-setting);
+}
