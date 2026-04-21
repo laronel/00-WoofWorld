@@ -13,11 +13,7 @@
 --footer-setting: #181113;
 }
 
-.footer-container{
-  display: flex-start;
-  flex-direction: row;
-  align-items: end;
-}
+
 
 .woofworld-logo{
   width: 150px;
@@ -31,42 +27,22 @@
 }
 
 
-
-.logo-footer{
+.footer-container{
+  display: flex-start;
+  align-items: end;
   background-color:var(--footer-setting);
-  padding: 40px 0px 0px 40px;
+  padding: 40px 0px;
   width: 100%;
 }
 
 .important-info{
-  display: flex;
-  justify-content: space-between;
-  background-color:var(--footer-setting);
-  padding: 40px 40px ;
-  margin: 0px;
+  padding: 40px  40px 0px 40px;
 }
 
-
-.important-info a{
-  text-decoration: none;
-  color:var(--light);
-  transition: 0.3s;
-  font-family: "inter";
+.logo-footer{
+  margin-left: 40px;
 }
 
-.important-info a:hover{
-  border-bottom: 2px solid var(--light)
-}
-
-.important-info a:active{
-  border-bottom: 2px solid var(--opacity-accent);
-  color:var(--opacity-accent) 
-}
-
-.important-info a:visited{
-  border-bottom: 2px solid var(--accent);
-  color:var(--accent);
-}
 
 .right-reserve {
   background-color:var(--accent);
@@ -77,6 +53,3 @@
   color:var(--light);
 }
 
-.important-links{
-  background-color:var(--footer-setting);
-}
