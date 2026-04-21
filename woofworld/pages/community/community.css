@@ -29,14 +29,38 @@
 
 .footer-container{
   display: flex-start;
-  align-items: end;
   background-color:var(--footer-setting);
   padding: 40px 0px;
   width: 100%;
 }
 
 .important-info{
+  display: flex;
+  justify-content: space-between;
   padding: 40px  40px 0px 40px;
+}
+
+.important-info a{
+  text-decoration: none;
+  color:var(--light);
+  padding: 10px;
+  font-family: "inter";
+  text-align: start;
+  display: block; 
+  /* I used display property and clock value to align every necessary links inside
+  the footer section */
+}
+
+.primary-footer-navigation{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.secondary-footer-navigation{
+  display: flex;
+  flex-direction: column;
 }
 
 .logo-footer{
@@ -44,9 +68,19 @@
 }
 
 
+
+
+
+
+
+
+
+
+
 .right-reserve {
   background-color:var(--accent);
   padding: 20px;
+  text-align: center;
 }
 
 .right-reserve a{
