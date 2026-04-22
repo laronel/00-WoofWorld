@@ -13,7 +13,9 @@ Status
 
 **In Progress**
 
-(Screenshots and live preview coming soon)
+![Screenshot](image.png)
+
+(live preview coming soon)
 
 ## About the Project
 
