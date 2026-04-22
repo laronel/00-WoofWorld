@@ -56,7 +56,21 @@
   flex-direction: column;
 }
 
+.image-footer{
+  display: inline-block;
+  filter: grayscale(100%);
+  align-self: end;  
+}
 
+.primary-image{
+  width: 110px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.secondary-image{
+  width: 45px;
+}
 
 .secondary-footer-navigation{
   display: flex;
