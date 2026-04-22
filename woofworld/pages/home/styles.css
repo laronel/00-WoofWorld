@@ -129,9 +129,8 @@
 
 .available-puppies{
   display: flex;
-  justify-content: space-between;
-  padding: 20px 40px 20px 40px;
-  margin: auto;
+  justify-content: space-around;
+  padding: 20px 0px 20px 0px;
 }
 
 .stat-number{
