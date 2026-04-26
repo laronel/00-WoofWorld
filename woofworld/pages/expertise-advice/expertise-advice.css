@@ -18,6 +18,38 @@
   margin-left: 20px;
 }
 
+.blank-header{
+  background:var(--footer-setting);
+  max-width: auto;
+  border-bottom: 1px solid var(--light);
+}
+
+.blank-list{
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  padding: 10px 40px;
+  list-style: none;
+  font-family: "inter", sans-serif;
+  font-size: 13px;
+}
+
+.blank-list a{
+  color:var(--light);
+  text-decoration: none;
+  border-bottom: 1px solid var(--light);
+}
+
+.blank-list a:active{
+  color:var(--accent);
+  border-bottom: 1px solid var(--accent);
+}
+
+.blank-list a:visited{
+  color:var(--primary);
+  border-bottom: 1px solid var(--primary); 
+}
+
 .hero-top{
   display: flex;
   justify-content: space-between;
