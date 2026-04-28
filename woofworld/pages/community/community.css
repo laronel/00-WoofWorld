@@ -20,7 +20,7 @@
 
 .hero-top{
   padding: 20px;
-  background-color:var(--light);
+  background-color:var(--footer-setting);
   align-items: start;
 }
 
@@ -78,16 +78,6 @@
 .logo-footer{
   margin-left: 40px;
 }
-
-
-
-
-
-
-
-
-
-
 
 .right-reserve {
   background-color:var(--accent);
