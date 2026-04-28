@@ -37,24 +37,32 @@
         <form action="login" method="get">
           <fieldset>
             <legend>Dog Lovers information</legend>
-            <label>Full Name<input type="text"></label>
-            <label><input type="text"></label>
-            <label><input type="text"></label>
-            <label><input type="text"></label>
-            <label><input type="text"></label>
+            <label for="full-name">Full Name: <input type="text" id="full-name" name="name" placeholder="e.g., Matheus Macmallison" required></label>
+            <label for="username">Username: <input type="text" id="username" name="username" placeholder="e.g., matmacmalison" required></label>
+            <label for="address-email">Email Address: <input type="email" id="address-email" name="email" placeholder="Exemple@macmalison.com" required></label>
+            <label for="password">Password: <input type="password" id="password" name="password" required></label>
+            <label for="confirm-password">confirm Password: <input type="password" id="confirm-password" name="confirm-password" required></label>
           </fieldset>
           <fieldset>
-            <legend>Profile Details (optional but useful):</legend>
+            <legend>Profile Details (optional but useful)</legend>
+              <label for="image-profile">Profile Photo: <input type="image" id="image-profile" name="profile" src="/" alt="upload image"></label>
+              <label for="location">Location (City): <input type="text" id="location" name="address-city"></label>
+              <label for="bio">Short Bio: <textarea id="bio" cols="50" placeholder="additional Information about yourself"></textarea></label>
           </fieldset>
           <fieldset>
             <legend>Dog Information</legend>
+            <label for="dog-name">Dog’s Name: <input type="text" id="dog-name" nome="dog-name" placeholder="e.g., Max" required></label>
+            <label for="breeds">Dog’s Breed: <input type="text" id="breeds" name="dog-breeds" placeholder="e.g., Azawakh" required></label>
+            <label for="dog-age">Dog’s Age: <input type="number" id="dog-age" name="age" max="20" required></label>
+            <label for="dog-photo">Dog’s Photo: <input type="image" id="dog-photo" name="dog-photo" src="/" alt="upload image"></label>
           </fieldset>
           <fieldset>
-            <legend>Preferences:</legend>
+            <legend>Preferences</legend>
+            <label for="interests"><input type="text" id="interests" name="interest" placeholder="e.g., walks, training, playdate"></label>
+            <label for="looking"><input type="text" id="looking" name="find" placeholder="friends, advice, meetups"></label>
           </fieldset>
-          <fieldset>
-            <legend></legend>
-          </fieldset>
+            <label for="terms-and-condition"><input type="checkbox" id="terms-and-condition" value="condition-terms"><a href="/terms">Agree to Terms & Conditions</a></label>
+            <button type="submit" value="join">Join Now</button>  
         </form>
       </section>
     </main>
