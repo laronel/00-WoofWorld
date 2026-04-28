@@ -45,7 +45,7 @@
   font-family: "inter";
   text-align: start;
   display: block; 
-  /* I used display property and clock value to align every necessary links inside
+  /* I used display property and block value to align every necessary links inside
   the footer section */
 }
 
